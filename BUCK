@@ -7,7 +7,7 @@ genrule(
 )
 
 prebuilt_apple_framework(
-  name = 'services', 
+  name = 'security', 
   framework = ':security-framework', 
   preferred_linkage = 'static', 
   visibility = [
